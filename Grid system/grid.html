@@ -23,18 +23,31 @@ with varying screen sizes, such as mobile phones, tablets, and desktops. -->
 <!-- Javascript Library -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-</head>
-<style> 
+<!-- Grid systems helps accomodate smaller screen sizes -->
 
-    .container-fluid {
+</head>
+ <style> 
+
+    .bg1 {
         background-color: aqua;
-        padding: 0 90px;
+    }
+    .bg2 {
+        background-color: yellow;
     }
 
-</style>
+
+</style> 
 <body>
 <div class="container-fluid">
-    <h2>Grid system in Bootstrap</h2>
+    <div class="row">
+
+        <div class="col-lg-3 bg1 ">simple paragraph 1</div>
+
+        <div class="col-lg-6 bg2 ">simple paragraph 2</div>
+
+        <div class="col-lg-3  bg1 ">simple paragraph 2</div>
+
+
         
 </div>
 </body>
