@@ -15,56 +15,57 @@
             font-size: 24px;
             padding: 8px;
             font-weight: 600;
-            /* #body{
-            margin: 0;
-        } */
         }
+
         #list-heading {
             font-size: 20px;
             padding-left: 24px;
         }
+
         .food-list-item {
             font-size: 20px;
+        }
+        .food-wrapper {
+            text-align: center;
+        }
+
     </style>
 </head>
 
-<body style="margin:0; background-color: #def3fd;">
+<body style="margin: 0; background-color: #def3fd;">
     <div id="topbar">
         <span class="menu-item">Index</span>
         <span class="menu-item">Food</span>
         <span class="menu-item">About</span>
     </div>
-    
+
     <h3 id="list-heading">Top 4 Favourite foods</h3>
     <ul>
-        <li><a class = "food-list-item" href="/">Biryani</a></li>
-        <li><a class = "food-list-item" href="/">Pizza</a></li>
-        <li><a class = "food-list-item" href="/">Hamburger</a></li>
-        <li><a class = "food-list-item" href="/">Salad</a></li>
-        
+        <li><a class="food-list-item" href="#Birayni">Biryani</a></li>
+        <li><a class="food-list-item" href="#Pizza">Pizza</a></li>
+        <li><a class="food-list-item" href="#Hamburger">Hamburger</a></li>
+        <li><a class="food-list-item" href="#Salad">Salad</a></li>
     </ul>
 
-    <div>
-        <img src = "https://www.kasandbox.org/programming-images/avatars/old-spice-man-blue.png" alt = "Biryani" />
+    <div class = "food-wrapper">
+        <img id = "birayni" src="https://www.kasandbox.org/programming-images/avatars/old-spice-man-blue.png" alt="Biryani" />
         <p>Biryani</p>
-        </div>
+    </div>
 
-        <div>
-        <img src ="https://www.kasandbox.org/programming-images/avatars/old-spice-man-blue.png" alt = ""/>
+    <div class = "food-wrapper">
+        <img id = "Pizza" src="https://www.kasandbox.org/programming-images/avatars/old-spice-man-blue.png" alt="Pizza" />
         <p>Pizza</p>
-        </div>
+    </div>
 
-        <div>
-        <img src ="https://via.placeholder.com/300.png/09f/fff" alt = ""/>
+    <div class = "food-wrapper">
+        <img id="Hamburger" src="https://via.placeholder.com/300.png/09f/fff" alt="Hamburger" />
         <p>Hamburger</p>
-        </div>
+    </div>
 
-        <div>
-        <img src ="" alt = ""/>
+    <div class = "food-wrapper">
+        <img id = "Salad" src="https://via.placeholder.com/300.png/09f/fff" alt="Salad" />
         <p>Salad</p>
-        </div>
-
-
+    </div>
 </body>
 
 </html>
