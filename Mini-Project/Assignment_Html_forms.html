@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up Page</title>
+
+    <style>
+        body {
+            background-color: #f2f6ff;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        form {
+            background-color: white;
+            text-align: center;
+            max-width: 700px;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        #form-heading {
+            font-size: 32px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        #social-wrapper {
+            background-color: #f2f6ff;
+            padding: 24px;
+        }
+
+        .Social-icons {
+            width: 50px;
+            height: 50px;
+            margin: 0 10px;
+            box-sizing: border-box;
+        }
+
+        .input-box {
+            font-size: 18px;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        #input-wrapper {
+            padding: 40px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            #input-wrapper {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <h1 id="form-heading">Register</h1>
+
+        <div id="social-wrapper">
+            <img class="Social-icons" src="http://pluspng.com/img-png/google-logo-png-open-2000.png" alt="Google" />
+            <img class="Social-icons"
+                src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/facebook_circle-512.png"
+                alt="Facebook" />
+            <img class="Social-icons" src="http://pluspng.com/img-png/google-logo-png-open-2000.png" alt="Github" />
+            <img class="Social-icons"
+                src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/linkedin_circle-512.png"
+                alt="LinkedIn" />
+        </div>
+
+        <div id="input-wrapper">
+            <div>
+                <input class="input-box" type="text" placeholder="Username" name="username" required>
+            </div>
+            <div>
+                <input class="input-box" type="email" placeholder="Email" name="email" required>
+            </div>
+            <div>
+                <input class="input-box" type="password" placeholder="Password" name="password" required>
+            </div>
+            <div>
+                <input class="input-box" type="password" placeholder="Confirm Password" name="confirm-password" required>
+            </div>
+            <input type="submit" value="Register">
+        </div>
+
+    </form>
+</body>
+
+</html>
