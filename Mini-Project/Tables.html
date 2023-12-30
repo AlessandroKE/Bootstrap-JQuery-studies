@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice Table</title>
+
+    <style>
+
+        table {
+            Width: 800px;
+            text-align: left;
+            background-color: white ;
+            margin-left: auto; margin-right: auto;
+        }
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+            line-height: 1.3;
+        }
+
+        .label {
+            font-weight: 600;
+        }
+
+        th {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+
+<body style = "background-color: #f2f6ff">
+    <table>
+        <tr>
+            <th colspan="3">Invoie #12345ABC</th>
+            <th>30th December 2023</th>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <span class="label">Pay To:</span><br>
+                The Tech Park<br>
+                123 Willow Sreet<br>
+                Boulevard, LA - 567892
+            </td>
+            <td td colspan="2">
+                <span class="label">Customer:</span><br>
+                John Lark <br>
+                Dummy Apartments <br>
+                276 Main Street <br>
+                Boulevard, LA - 567892
+            </td>
+
+        </tr>
+
+        <tr>
+            <th>Name/description</th>
+            <th>Qty.</th>
+            <th>MRP</th>
+            <th>Amount</th>
+        </tr>
+        <tr>
+            <td>Biryani</td>
+            <td>3</td>
+            <td>400</td>
+            <td>1200</td>
+        </tr>
+        <tr>
+            <td>Chocolate</td>
+            <td>3</td>
+            <td>200</td>
+            <td>600</td>
+        </tr>
+        <tr>
+            <td colspan="3" style = "background-color: lightblue">Subtotal</td>
+            <td>1800</td>
+        </tr>
+        <tr>
+            <td colspan="2" style = "background-color: lightblue">Tax</td>
+            <td>10%</td>
+            <td>180</td>
+        </tr>
+        <tr>
+            <td colspan="3" style = "background-color: lightblue">Grand total</td>
+            <td>Rs 1620</td>
+        </tr>
+    </table>
+
+   <!--  <p>Invoice tables design Assignment</p> -->
+
+</body>
+
+</html>
+</body>
+
+</html>
