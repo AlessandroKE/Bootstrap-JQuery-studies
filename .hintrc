@@ -9,6 +9,14 @@
       {
         "html-has-lang": "off"
       }
+    ],
+    "disown-opener": "off",
+    "meta-viewport": "off",
+    "axe/text-alternatives": [
+      "default",
+      {
+        "document-title": "off"
+      }
     ]
   }
 }

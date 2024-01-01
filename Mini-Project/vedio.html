@@ -1,16 +1,43 @@
+<!DOCTYPE html> 
+<html><head><meta charset="utf-8"></head><head></head><body> 
 
-<!DOCTYPE html>
-<html lang="en">
+<div style="text-align:center"> 
+  <button onclick="playPause()">Play/Pause</button> 
+  <button onclick="makeBig()">Big</button>
+  <button onclick="makeSmall()">Small</button>
+  <button onclick="makeNormal()">Normal</button>
+  <br><br>
+  <video id="video1" width="420">
+    <source src="mov_bbb.mp4" type="video/mp4">
+    <source src="mov_bbb.ogg" type="video/ogg">
+    Your browser does not support HTML video.
+  </video>
+</div> 
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Working with YouTube Videos in HTML</title>
-</head>
+<script> 
+var myVideo = document.getElementById("video1"); 
 
-<body>
-    <!-- Replace 'YOUTUBE_VIDEO_ID' with the actual video ID of your YouTube video -->
-    <iframe controls width="560" height="315" src="https://www.youtube.com/embed/KTHpOzrDypLhAxTd" frameborder="0" allowfullscreen></iframe>
-</body>
+function playPause() { 
+  if (myVideo.paused) 
+    myVideo.play(); 
+  else 
+    myVideo.pause(); 
+} 
 
-</html>
+function makeBig() { 
+    myVideo.width = 560; 
+} 
+
+function makeSmall() { 
+    myVideo.width = 320; 
+} 
+
+function makeNormal() { 
+    myVideo.width = 420; 
+} 
+</script> 
+
+<p>Video courtesy of <a href="https://www.bigbuckbunny.org/" target="_blank">Big Buck Bunny</a>.</p>
+
+ 
+</body></html>
