@@ -1,6 +1,17 @@
-h1{
-color: blue;
+h1 {
+    color: blue;
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
 }
-p{
+
+p {
     color: brown;
+    text-align: center;
+    font-weight: 100, bold;
+    letter-spacing: 1px;
+    word-spacing: 0px;
+    line-height: 2;
+    font-family:'Roboto', sans-serif;;
 }
