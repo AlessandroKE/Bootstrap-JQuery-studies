@@ -18,5 +18,12 @@ p {
 }
 
 #second-paragraph {
-    
+  /*  border-style: dotted;
+   border-width: 3px;
+   border-color: red !important; */
+   border: solid 4px;
+   border-color: rgb(0, 0, 244);
+   border-radius: 8px;
+   padding: 24px;
+
 }
