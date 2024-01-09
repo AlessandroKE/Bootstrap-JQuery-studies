@@ -10,16 +10,42 @@
         padding: 8px 16px;
         border: none;
         border-radius: 8px;
+     /*    changes the cursor button */
+        cursor: pointer;
 
+      }
+
+      #btn-login:hover {
+        background-color: black;
+        color: white;
       }
       #btn-signup {
         background-color: aquamarine;
+        padding: 8px 16px;
+        border: none;
+        border-radius: 8px;
+     /*    changes the cursor button */
+        cursor: pointer;
       }
 
+      #btn-signup:hover {
+        background-color: brown;
+        color: white;
+      }
+      #btn-disabled {
+        background-color: aqua;
+        padding : 7px 14px;
+        border: none;
+        border-radius: 8px;
+        opacity: 0.3;
+        cursor: not-allowed;
+        outline: none;
+      }
     </style>
 </head>
 <body>
     <button id = "btn-signup" type="button">Signup</button>
     <button id = "btn-login" type="button">Login</button>
+    <button id = "btn-disabled" type="button">Disabled</button>
 </body>
 </html>
